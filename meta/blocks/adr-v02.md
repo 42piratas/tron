@@ -349,12 +349,12 @@ Voice input (desktop via VoiceInk + TG voice message transcription) is a confirm
 
 ### 2.10 Project Structure — Discovery & Alignment
 
-TRON does **not** create or enforce project structure — that's SUPER-M / Architect territory. TRON discovers what exists, aligns to it, and fills in only TRON-specific files. The `meta/` pattern is the reference structure (full guide: `tron/meta/tmp/guide-agentic-meta-structure.md`).
+TRON does **not** create or enforce project structure — that's SUPER-M / Architect territory. TRON discovers what exists, aligns to it, and fills in only TRON-specific files. The `meta/` pattern is the reference structure.
 
 #### Workspace Layout
 
 ```
-workspace/                              ← e.g., ~/Spaceship/
+workspace/                              ← e.g., ~/workspace/
 ├── {project}/                          ← a project (e.g., my-app/)
 │   ├── meta/                           ← agent operating system
 │   ├── {service-repos}/                ← application code (independent git repos)
